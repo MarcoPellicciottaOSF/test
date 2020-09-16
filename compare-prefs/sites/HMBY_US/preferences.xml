@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <standard-preferences>
+        <all-instances>
+            <preference preference-id="AccountNumberRetentionDays">0</preference>
+            <preference preference-id="AddProductToBasketBehavior">AllowRepeats</preference>
+            <preference preference-id="BasketLifetime">240</preference>
+            <preference preference-id="BasketPersistence">all</preference>
+            <preference preference-id="CouponGeneratorIncludeDashes">true</preference>
+            <preference preference-id="CouponGeneratorIncludeVowels">true</preference>
+            <preference preference-id="EnableSiteOrderNumbers">true</preference>
+            <preference preference-id="EnforceHTTPS">true</preference>
+            <preference preference-id="FailNonPlacedOrdersAfter">0</preference>
+            <preference preference-id="FailedOrderRetention">0</preference>
+            <preference preference-id="GenerateCustomerNumberEnabled">false</preference>
+            <preference preference-id="IntegrationOrderCenterIncludeSite">true</preference>
+            <preference preference-id="ItemPriceRoundingPolicy">Item-Level</preference>
+            <preference preference-id="OrderEditExportDelay">30</preference>
+            <preference preference-id="OrderExportDelay">30</preference>
+            <preference preference-id="OrderExportFormat">15.4</preference>
+            <preference preference-id="OrderIPLoggingEnabled">true</preference>
+            <preference preference-id="OrderLifetime">0</preference>
+            <preference preference-id="OrderRetentionDateField">LastModified</preference>
+            <preference preference-id="OversellWhenUndoCancelOrder">false</preference>
+            <preference preference-id="OversellWhenUndoFailOrder">false</preference>
+            <preference preference-id="RedirectUrlCopySourceParameters">false</preference>
+            <preference preference-id="RetainNonExportedOrders">false</preference>
+            <preference preference-id="SiteCatalog">hmby_us-storefront</preference>
+            <preference preference-id="SiteCurrencies">USD</preference>
+            <preference preference-id="SiteCustomerList">HMBY_US-customers</preference>
+            <preference preference-id="SiteDefaultLocale">en_US</preference>
+            <preference preference-id="SiteInventoryList">HMBY_US-inventory</preference>
+            <preference preference-id="SiteLibrary">HMBY_US</preference>
+            <preference preference-id="SiteLocales">en_US</preference>
+            <preference preference-id="SitePriceBooks">HMBY_US-list-pricebook</preference>
+            <preference preference-id="SiteTimezone">Etc/UTC</preference>
+            <preference preference-id="SkipCouponRedemptionLimitWhenUndoCancelOrder">false</preference>
+            <preference preference-id="SkipCouponRedemptionLimitWhenUndoFailOrder">false</preference>
+            <preference preference-id="StorefrontOrderAccess">unrestricted</preference>
+            <preference preference-id="StorefrontOrderFiltering">false</preference>
+            <preference preference-id="StorefrontURLsEnabled">true</preference>
+            <preference preference-id="TaxKey">JurisdictionMappings</preference>
+            <preference preference-id="TaxKey1">Country</preference>
+            <preference preference-id="TaxKey2">State</preference>
+            <preference preference-id="TaxRoundingMode">HALF_UP</preference>
+        </all-instances>
+        <development>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="IncludePromotionIDInProductIndex">true</preference>
+            <preference preference-id="MergedVariationGroupsDisplayMode">false</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">DisallowAll</preference>
+            <preference preference-id="SearchSuggestions">Disabled</preference>
+        </development>
+        <staging>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="IncludePromotionIDInProductIndex">true</preference>
+            <preference preference-id="MergedVariationGroupsDisplayMode">false</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">DisallowAll</preference>
+            <preference preference-id="SearchSuggestions">Enabled</preference>
+        </staging>
+        <production>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="IncludePromotionIDInProductIndex">true</preference>
+            <preference preference-id="MergedVariationGroupsDisplayMode">false</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">Cartridge</preference>
+            <preference preference-id="SearchSuggestions">Enabled</preference>
+        </production>
+    </standard-preferences>
+    <custom-preferences>
+        <all-instances/>
+        <development>
+            <preference preference-id="ATEnable">true</preference>
+            <preference preference-id="ATEnableAddressValidation">false</preference>
+            <preference preference-id="ATEnableTesting">false</preference>
+            <preference preference-id="AtCompanyCode">UMCOMMERCE_2</preference>
+            <preference preference-id="AtDocumentCommitAllowed">true</preference>
+            <preference preference-id="AtShipFromCity">Neenah</preference>
+            <preference preference-id="AtShipFromCountryCode">US</preference>
+            <preference preference-id="AtShipFromLine1">8556 Martin Dr</preference>
+            <preference preference-id="AtShipFromLocationCode">DEFAULT</preference>
+            <preference preference-id="AtShipFromStateCode">WI</preference>
+            <preference preference-id="AtShipFromZipCode">54956</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Skip_Client_Validation_Result">disabled</preference>
+            <preference preference-id="BRAINTREE_APPLEPAY_Visibility_Button_On_Cart">false</preference>
+            <preference preference-id="BRAINTREE_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_L2_L3">false</preference>
+            <preference preference-id="BRAINTREE_Logging_Mode">all</preference>
+            <preference preference-id="BRAINTREE_Merchant_Account_IDs">
+                <value>USD:HMBY</value>
+            </preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Billing_Address_Override">true</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Button_Location">CartMinicart</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Display_Name">KC</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Locale">en_US</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_PayNow_Button_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payee_Email">sb-cgpml802044@business.example.com</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Shipping_Address_Override">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_ShowCreditFinancialBanners">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Vault_Mode">not</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Visibility_Express_Button_On_Cart">false</preference>
+            <preference preference-id="BRAINTREE_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_Tokenization_Key">sandbox_5rtqx2bc_mp6fmdg3gm9wg4fz</preference>
+            <preference preference-id="BRAINTREE_Vault_Mode">always</preference>
+            <preference preference-id="FOMSEnableOrderCancellationEmail">false</preference>
+            <preference preference-id="FOMSEnableRefundConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnItemsStepsEmail">false</preference>
+            <preference preference-id="FOMSOCAPIClientID">52709a98-332f-4d1d-a4c7-e1afb8ea05aa</preference>
+            <preference preference-id="FOMSOCAPIPassword">3ucERMurk18+fiYNMqwNQWikAuB9088Snr8R3Bs4HwjWKtQ/NqAglPsmBikEyqvc</preference>
+            <preference preference-id="FOMSOCAPIVersion">19.8</preference>
+            <preference preference-id="LOMSEncryptionKey">29PcKkH4JT938fXhSKcPBOhetGjKljZSwmzDCcQnqzde8F6X4QiXSSuy95jUR1LMAPVUeBfDPxxSeDPh5g6i5CvHfxXPNWMzT09HZbq+SbY=</preference>
+            <preference preference-id="SLmarketingCloudEnabled">false</preference>
+            <preference preference-id="SLmarketingCloudListId">407A7762-AE61-4E0B-9B24-61D1CF53D8D8</preference>
+            <preference preference-id="SLmarketingCloudSubscriberFields">
+                <value>EmailAddress</value>
+                <value>FirstName</value>
+                <value>LastName</value>
+                <value>Country</value>
+                <value>ZipCode</value>
+                <value>ChildName</value>
+                <value>ChildGender</value>
+            </preference>
+            <preference preference-id="accessibilityEnabled">true</preference>
+            <preference preference-id="ageVerificationValue">18</preference>
+            <preference preference-id="allowBTPayPalAccountSave">false</preference>
+            <preference preference-id="autocompleteCountries">
+                <value>US</value>
+            </preference>
+            <preference preference-id="azureImageExtension">jpg</preference>
+            <preference preference-id="azureURLPermanent">https://sthmbydiaperimagdevncus.blob.core.windows.net/permanent/</preference>
+            <preference preference-id="azureURLTemp">https://sthmbydiaperimagdevncus.blob.core.windows.net/temp/</preference>
+            <preference preference-id="bvReviewsContentID">product-reviews-image</preference>
+            <preference preference-id="bvReviewsEnable">true</preference>
+            <preference preference-id="bvScriptSource">https://apps.bazaarvoice.com/deployments/huggies/huggiesmadebyyou/staging/en_US/bv.js</preference>
+            <preference preference-id="captureOrderOnStatusUpdate">true</preference>
+            <preference preference-id="coRegistrationBrand">6</preference>
+            <preference preference-id="coRegistrationEnable">true</preference>
+            <preference preference-id="coRegistrationSourceID">1059</preference>
+            <preference preference-id="coRegistrationVendorID">29</preference>
+            <preference preference-id="configuratorProductID">HUGMBYDIAP</preference>
+            <preference preference-id="contactUsConfig">
+                {
+                    "emailsConfig": {
+                       "OrderingAssistance": [
+                        ],
+                        "OrderStatus": [
+                        ],
+                        "ProductInquiry": [
+                        ],
+                        "Other": [
+                        ]
+                    },
+                    "contactNumber":"1-877-546-2273"
+                }
+            </preference>
+            <preference preference-id="countryCode">US</preference>
+            <preference preference-id="customerServiceEmail">Huggies.HMBY@k-cmail.com</preference>
+            <preference preference-id="disScalingProperties">
+                {
+                    "search": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 40,
+                            "scaleHeight": 40,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "minicart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "cart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "wishlist": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "backinstock": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "order": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "producttile": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 350,
+                            "scaleHeight": 350,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "pdp": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "large": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "zoom": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 1000,
+                            "scaleHeight": 1000,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorProduct": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 570,
+                            "scaleHeight": 570,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorTile": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 124,
+                            "scaleHeight": 124,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorBanner": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 450,
+                            "scaleHeight": 200,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorCard": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 300,
+                            "scaleHeight": 150,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="displayChildGenderDOBLocation">billing</preference>
+            <preference preference-id="emailCustomerOnStatusUpdate">true</preference>
+            <preference preference-id="emailsAssetsConfigurations">
+                {
+                    "registration": {
+                        "enabled": true,
+                        "subject": "Welcome to Huggies Made by You",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-creation-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordReset": {
+                        "enabled": true,
+                        "subject": "Reset your Huggies Made by You password",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-forgot-password-link",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordChanged": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You password has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-reset-password-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShippingConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-shipping-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "FastOMSOrderConfirmation": {
+                        "enabled": true,
+                        "subject": "Thank you for your order!",
+                        "assets": {
+                            "body": "fastoms-email-order-confirmation",
+                            "footer": "email-general-footer-oms"
+                        }
+                    },
+                    "accountLocked": {
+                        "enabled": true,
+                        "subject": "Your Account on Huggies Made by You has been locked",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-locked",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountVerification": {
+                        "enabled": true,
+                        "subject": "Please verify your Huggies Made by You account",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-activation-verification",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountEdited": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You account details has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-information",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToSupport": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToCustomer": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received-no-header-footer",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "backInStock": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-product-back-in-stock",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "giftRegistry": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-gift-registry-product-purchased",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShipmentUpdate": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-shipment-updates",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistSubscribed": {
+                        "enabled": true,
+                        "subject": "Subscribed to waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistUnsubscribed": {
+                        "enabled": true,
+                        "subject": "Unsubscribed from waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-unsubscription",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistInStock": {
+                        "enabled": true,
+                        "subject": "Waitlist - Product now in stock",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-instock",
+                            "footer": "email-general-footer"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="enableAgeVerification">true</preference>
+            <preference preference-id="enableBackInStock">false</preference>
+            <preference preference-id="enableBraintree">true</preference>
+            <preference preference-id="enableChildGenderDOB">true</preference>
+            <preference preference-id="enableContentSuggestionImage">false</preference>
+            <preference preference-id="enableCouponOnCheckout">true</preference>
+            <preference preference-id="enableDoubleOptin">true</preference>
+            <preference preference-id="enableEGiftCard">false</preference>
+            <preference preference-id="enableFooterNewsletter">true</preference>
+            <preference preference-id="enableGoogleOAuthProvider">false</preference>
+            <preference preference-id="enableGooglePlaceAutocomplete">true</preference>
+            <preference preference-id="enableGoogleRecaptha">true</preference>
+            <preference preference-id="enableQuickView">false</preference>
+            <preference preference-id="enableSearch">false</preference>
+            <preference preference-id="enableTransactionalSite">true</preference>
+            <preference preference-id="enableValidity">true</preference>
+            <preference preference-id="enableWaitList">false</preference>
+            <preference preference-id="enableWishlist">false</preference>
+            <preference preference-id="gtmClick">true</preference>
+            <preference preference-id="gtmContainerID">GTM-WCW4J3M</preference>
+            <preference preference-id="gtmEnabled">true</preference>
+            <preference preference-id="gtmHover">true</preference>
+            <preference preference-id="gtmScroll">true</preference>
+            <preference preference-id="mapAPI">AIzaSyC0YoE3YJwivOZJBGpcIqpwkk_CMpMhN0s</preference>
+            <preference preference-id="maxOrderQuantity">20.0</preference>
+            <preference preference-id="oneTrustEnabled">true</preference>
+            <preference preference-id="oneTrustSource">https://optanon.blob.core.windows.net/consent/d3d4433a-21da-4b6b-a03e-6e6b40631456-test.js</preference>
+            <preference preference-id="pdpDescriptionAttributes">
+                <value>tabDetails</value>
+                <value>details</value>
+                <value>shortDescription</value>
+                <value>longDescription</value>
+            </preference>
+            <preference preference-id="pipelinesMetaTagsContent">{
+                "Account-EditPassword": "account-editpassword-meta",
+                "Account-EditProfile": "account-editprofile-meta",
+                "Account-PasswordReset": "account-passwordreset-meta",
+                "Account-SetNewPassword": "account-setnewpassword-meta",
+                "Account-Show": "account-show-meta",
+                "Address-AddAddress": "address-addaddress-meta",
+                "Address-EditAddress": "address-editaddress-meta",
+                "Address-List": "address-list-meta",
+                "Cart-Show": "cart-show-meta",
+                "Checkout-Begin": "checkout-begin-meta",
+                "Checkout-Login": "checkout-login-meta",
+                "ContactUs-Landing": "contact-us-landing-meta",
+                "CSRF-Fail": "error-meta",
+                "Default-Offline": "default-offline-meta",
+                "Error-ErrorCode": "error-meta",
+                "Error-Start": "error-meta",
+                "Home-ErrorNotFound": "error-meta",
+                "RedirectURL-Start" : "error-meta",
+                "Login-Show": "login-show-meta",
+                "Order-Confirm": "order-confirm-meta",
+                "Order-Details": "order-details-meta",
+                "Order-History": "order-history-meta",
+                "Order-Track": "order-track-meta",
+                "PaymentInstruments-AddPayment": "paymentinstruments-addpayment-meta",
+                "PaymentInstruments-List": "paymentinstruments-list-meta",
+                "Search-Content": "search-content-meta",
+                "Search-Show": "search-show-meta",
+                "Stores-Find": "stores-find-meta",
+                "Wishlist-Show": "wishlist-show-meta",
+                "Configurator-Start": "configurator-start-meta",
+                "Configurator-App": "configurator-app-meta",
+                "Product-Reviews": "product-reviews-meta",
+                "Product-Configured": "product-configured-meta"
+                }
+            </preference>
+            <preference preference-id="profanityWords">anus,arse,arsehole,ass,ass hole,ass holes,ass kisser,ass lick,ass wipe,assbag,assbandit,assbanger,assbite,assclown,asscock,asscracker,asses,assface,assfuck,assfucker,assgoblin,asshat,ass-hat,asshead,asshole,asshopper,ass-jabber,assjacker,asslick,asslicker,assmonkey,assmunch,assmuncher,assnigger,asspirate,ass-pirate,assshit,assshole,asssucker,asswad,asswipe,axwound,balls,bampot,bastard,beaner,beastial,beastiality,beastility,beaver,belly whacker,bestial,bestiality,bitch,bitchass,bitcher,bitchers,bitches,bitches,bitchin,bitching,bitchtits,bitchy,blow job,blow jobs,blowjob,bollocks,bollox,bone head,boner,brotherfucker,brown eye,browntown,bucket cunt,bull shit,bullshit,bum,bumblefuck,bung hole,butch,butt,butt breath,butt face,butt fuck,butt fucker,butt hair,butt head,butt hole,butt picker,butt plug,buttfucka,buttfucker,butt,camel toe,carpetmuncher,chesticle,chinc,chink,choad,chode,christ,circle jerk,clam,clit,clitface,clitfuck,clusterfuck,cobia,cock,cock suck,cock sucked,cock sucker,cock sucking,cock sucks,cockass,cockbite,cockburger,cockface,cockfucker,cockhead,cockjockey,cockknoker,cockmaster,cockmongler,cockmongruel,cockmonkey,cockmuncher,cocknose,cocknugget,cocks,cockshit,cocksmith,cocksmoke,cocksmoker,cocksniffer,cocksucker,cockwaffle,Cojones,cojon,coochie,coochy,coon,cooter,cooter,cracker,crap,cum,cum shot,cumbubble,cumdumpster,cumguzzler,cumjockey,cummer,cumming,cums,cumslut,cumtart,cunilingus,cunillingus,cunnie,cunnilingus,cunt,cuntass,cuntface,cunthole,cuntlick,cuntlicker,cuntlicking,cuntrag,cunts,cuntslut,cyber fuc,cyber fuck,cyber fucked,cyber fucker,cyber fuckers,cyber fucking,dago,damn,deggo,dick,dickbag,dickbeaters,dickface,dickfuck,dickfucker,dickhead,dickhole,dickjuice,dickmilk,dickmonger,dicks,dicks,dickslap,dick,dicksucker,dicksucking,dicktickler,dickwad,dickweasel,dickweed,dickwod,dike,dildo,dildos,dink,dinks,dipshit,dong,doochbag,dookie,douche,douche bag,douchebag,douche-fag,douchewaffle,dumass,dumb ass,dumbass,dumbfuck,dumbshit,dumshit,dyke,ejaculate,ejaculated,ejaculates,ejaculating,ejaculatings,ejaculation,fag,fagbag,fagfucker,fagget,fagging,faggit,faggot,faggotcock,faggs,fagot,fagots,fags,fagtard,fart,farted,farting,fartings,farts,farty,fat ass,fatass,fatso,felatio,fellatio,fellatio,feltch,finger fuck,finger fucked,finger fucker,finger fuckers,finger fucking,finger fucks,fist fuck,fist fucked,fist fucker,fist fuckers,fist fucking,fist fuckings,fist fucks,flamer,fuck,fuckass,fuckbag,fuckboy,fuckbrain,fuckbutt,fuckbutter,fucked,fucker,fuckers,fuckersucker,fuckface,fuckhead,fuckhole,fuckin,fucking,fuckings,fuckme,fucknut,fucknutt,fuckoff,fucks,fuckstick,fucktard,fucktart,fuckup,fuckwad,fuckwit,fuckwitt,fudgepacker,fuk,fuks,fur burger,gang bang,gang banged,gang bangs,gay,gay sex,gayass,gaybob,gaydo,gayfuck,gayfuckist,gaylord,gaytard,gaywad,gazongers,goddamn,goddamnit,gonads,gooch,gook,gringo,guido,guinne,handjob,hard on,hardcoresex,heeb,hell,ho,hoe,homo,homodumbshit,honkey,hooker,horniest,horny,hotsex,humping,hussy,jack off,jackass,jacking off,jackoff,jagoff,jap,jerk off,jerkass,jesus christ,jew,jigaboo,jism,jiz,jizm,jizz,jungle bunny,junglebunny,kike,knob,kock,kondum,kondums,kooch,kootch,kraut,kum,kummer,kumming,kums,kunilingus,kunt,kyke,lameass,lardass,lesbian,lesbo,lezzie,loser,lust,lusting,mcfagget,merde,mick,mick,minge,mothafuck,mothafucka,mothafuckas,mothafuckaz,mothafucked,mothafucker,mothafuckers,mothafuckin,mothafuckin',mothafucking,mothafuckings,mothafucks,mother fuck,mother fucked,mother fucker,mother fuckers,mother fuckin,mother fucking,mother fuckings,mother fucks,motherfucker,motherfucking,mound,muff,muffdiver,munging,negro,nerd,nigaboo,nigga,nigger,niggers,niggers,niglet,nut sack,nutsack,orgasim,orgasims,orgasm,orgasms,paki,panooch,pecker,peckerhead,penis,penisbanger,penisfucker,penispuffer,phonesex,phuk,phuked,phuking,phukked,phukking,phuks,phuq,pimp,piss,piss off,pissed,pissed,pissed off,pisser,pissers,pisses,pissflaps,pissin,pissing,polesmoker,pollock,poon,poonani,poonany,poontang,porch monkey,porchmonkey,porn,porno,pornography,pornos,prick,pricks,prostitute,punanny,punk,punta,pussies,pussies,pussy,pussylicking,pussys,puto,queef,queer,queerbait,queerhole,renob,retard,rimjob,ruski,sand nigger,sandnigger,schlong,screw,scrote,sheister,shit,shit face,shit faced,shit head,shitass,shitbag,shitbagger,shitbrains,shitbreath,shitcanned,shitcunt,shitdick,shited,shitface,shitfaced,shitfull,shithead,shithole,shithouse,shiting,shitings,shits,shitspitter,shitstain,shitted,shitter,shitter,shitters,shittiest,shitting,shittings,shitty,shiz,shiznit,skank,skeet,skullfuck,slag,sleaze,slut,slutbag,sluts,smeg,smut,snatch,spic,spick,splooge,spook,spunk,suckass,tard,testicle,thundercunt,tit,titfuck,tits,tittyfuck,twat,twatlips,twats,twatwaffle,unclefucker,vag,vagina,vajayjay,va-j-j,vjayjay,wank,wankjob,wetback,whore,whore,whorebag,whoreface,wop,ahuevado,ano,baboso,bastardo,bereco,bestia,bobo,bronca,buchon,buchón,buey,cabron,cabrón,cacaso,cachucha,cagar,capullo,carajo,cerote,chilguete,chimba,chingada,chingado,chingar,chocho,chupar,clitoris,cocho,cogerse,cogida,cojer,cojón,cojonudo,concha,condon,coño,consolador,culear,culera,culero,culo,dundo,empedarse,encachimbado,ereccion,erección,estupido,estúpido,exitar,eyacular,faje,fornicar,forro,gilipollas,gonorrea,gonorriento,gueba,guevon,guey,güey,guila,güila,hecho mierda,hijo de puta,hijueputa,homosexual,hueva,hueva,huevear,huevon,huevonada,huevos,idiota,imbecil,imbécil,jinetera,jodanse,joder,jodete,joto,lesbiana,locochón,maje,malparido,mamahuevo,mamón,marero,marica,marica,maricon,maricón,mariposilla,mariposón,masturbador,masturbar,mayate,menso,miar,mierda,mota,nerdo,orgasmo,orinar,paja,paloma,pandillero,peda,pedo,pelotudo,pendejo,pene,peperecha,perra,perro,pija,pijura,pinche,pingas,pingo,pipián,piruja,pirujo,pisar,pito,pollero,prostituta,pudrete,púdrete,puñal,puta,puta madre,putazo,puto,ramera,retardado,retrograda,reventado,tarado,testiculo,testiculos,tetas,tizo,tortillera,transa,tranza,tronársela,uta,vagina,vagina,verga,zoquete,zorra,zorro,Ass,Bmu,Cmu,Fga,Fku,Gya,Heo,Jpa,Jwe,Jzi,Kmu,Tti,Vga,Wpo,wtf,wft,aOn,ano,uAt,uta,$*it,Bastard,F**ker,Pooper,Sex Produced,sexy time made,Cojones,cojon</preference>
+            <preference preference-id="rateLimiterThreshold">3</preference>
+            <preference preference-id="recaptchaSiteKey">6LebwNcUAAAAAG_UELvREbA99Jom6GEdmkTFaVs1</preference>
+            <preference preference-id="searchResultsOptions">
+                <value>products</value>
+                <value>articles</value>
+            </preference>
+            <preference preference-id="searchSuggestionsOptions">
+                <value>content</value>
+            </preference>
+            <preference preference-id="separateLoginRegister">false</preference>
+            <preference preference-id="themeConfiguratorBackgroundPrimary">#fff</preference>
+            <preference preference-id="themeConfiguratorBackgroundSecondary">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorBorderPrimary">#000</preference>
+            <preference preference-id="themeConfiguratorCTABorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorCTABorderWidth">2</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCustomIcons">acf-font.woff</preference>
+            <preference preference-id="themeConfiguratorEmailLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorEnabled">true</preference>
+            <preference preference-id="themeConfiguratorFavIcon16">favicon-16x16.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon192">favicon-192x192.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon48">favicon-48x48.png</preference>
+            <preference preference-id="themeConfiguratorFieldFocusBorder">#000</preference>
+            <preference preference-id="themeConfiguratorFieldFocusOutline">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorFooterAnchor">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterAnchorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterBackground">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorFooterBacktotop">#000</preference>
+            <preference preference-id="themeConfiguratorFooterHeading">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColor">#868686</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterText">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerBackgroundColor">#c8dff0</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonBackgroundColor">transparent</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonTextColor">#000</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerTextColor">#000000</preference>
+            <preference preference-id="themeConfiguratorHeaderBgColor">#fff</preference>
+            <preference preference-id="themeConfiguratorHeaderFixed">true</preference>
+            <preference preference-id="themeConfiguratorHeaderIconsColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextHoverColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorInputBorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorLogoLarge">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorLogoSmall">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorMainNavAlign">right</preference>
+            <preference preference-id="themeConfiguratorMainNavBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBorderColor">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownHoverBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorMainNavTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorTextSecondary">#000</preference>
+            <preference preference-id="themeConfiguratorTextSpecial">#e1251b</preference>
+            <preference preference-id="trackingType">product</preference>
+            <preference preference-id="trackingURL">https://www.ups.com/track?tracknum={trackingNumber}</preference>
+            <preference preference-id="useAzurePermanentStorage">true</preference>
+            <preference preference-id="zoom_Xoffset">30</preference>
+            <preference preference-id="zoom_defaultScale">-1.0</preference>
+            <preference preference-id="zoom_enabled">true</preference>
+            <preference preference-id="zoom_lens">false</preference>
+            <preference preference-id="zoom_lensOpacity">0.7</preference>
+            <preference preference-id="zoom_lensShape">circle</preference>
+            <preference preference-id="zoom_position">lens</preference>
+            <preference preference-id="zoom_tint">#333</preference>
+            <preference preference-id="zoom_tintOpacity">0.5</preference>
+        </development>
+        <staging>
+            <preference preference-id="ATEnable">true</preference>
+            <preference preference-id="ATEnableAddressValidation">false</preference>
+            <preference preference-id="ATEnableTesting">false</preference>
+            <preference preference-id="AtCompanyCode">UMCOMMERCE_2</preference>
+            <preference preference-id="AtDocumentCommitAllowed">true</preference>
+            <preference preference-id="AtShipFromCity">Neenah</preference>
+            <preference preference-id="AtShipFromCountryCode">US</preference>
+            <preference preference-id="AtShipFromLine1">8556 Martin Dr</preference>
+            <preference preference-id="AtShipFromLocationCode">DEFAULT</preference>
+            <preference preference-id="AtShipFromStateCode">WI</preference>
+            <preference preference-id="AtShipFromZipCode">54956</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Skip_Client_Validation_Result">disabled</preference>
+            <preference preference-id="BRAINTREE_APPLEPAY_Visibility_Button_On_Cart">false</preference>
+            <preference preference-id="BRAINTREE_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_L2_L3">false</preference>
+            <preference preference-id="BRAINTREE_Logging_Mode">all</preference>
+            <preference preference-id="BRAINTREE_Merchant_Account_IDs">
+                <value>USD:HMBY</value>
+            </preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Billing_Address_Override">true</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Button_Location">CartMinicart</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Display_Name">KC</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Locale">en_US</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_PayNow_Button_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payee_Email">sb-cgpml802044@business.example.com</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Shipping_Address_Override">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_ShowCreditFinancialBanners">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Vault_Mode">not</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Visibility_Express_Button_On_Cart">false</preference>
+            <preference preference-id="BRAINTREE_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_Tokenization_Key">sandbox_5rtqx2bc_mp6fmdg3gm9wg4fz</preference>
+            <preference preference-id="BRAINTREE_Vault_Mode">always</preference>
+            <preference preference-id="FOMSEnableOrderCancellationEmail">false</preference>
+            <preference preference-id="FOMSEnableRefundConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnItemsStepsEmail">false</preference>
+            <preference preference-id="FOMSOCAPIClientID">52709a98-332f-4d1d-a4c7-e1afb8ea05aa</preference>
+            <preference preference-id="FOMSOCAPIPassword">5VUqoGSw1O0/Pqxd9WuQuPNcKmCTjpXG4V7w5FkJ777fHPanzH3Xgu1QXmmY2uSl</preference>
+            <preference preference-id="FOMSOCAPIVersion">19.8</preference>
+            <preference preference-id="LOMSCancelReturnReasons">
+                <value>The Customer Bought the Wrong Item</value>
+                <value>The Product is No Longer Needed</value>
+                <value>The Product Didn’t Match Its Description</value>
+                <value>A Gift Purchase Was Incorrect</value>
+                <value>The Product Was Damaged Upon Arrival</value>
+                <value>The Merchant Shipped the Wrong Item</value>
+            </preference>
+            <preference preference-id="LOMSEncryptionKey">IxgB6Boxag5T7vc14Mmf6uhetGjKljZSwmzDCcQnqzde8F6X4QiXSSuy95jUR1LMCGF7ja+b+haA4fxnh/wIosSjVbxtJGj5h6mk6MRYMsc=</preference>
+            <preference preference-id="LOMSRefundReasons">
+                <value>The Customer Bought the Wrong Item</value>
+                <value>The Product is No Longer Needed</value>
+                <value>The Product Didn’t Match Its Description</value>
+                <value>A Gift Purchase Was Incorrect</value>
+                <value>The Product Was Damaged Upon Arrival</value>
+                <value>The Merchant Shipped the Wrong Item</value>
+            </preference>
+            <preference preference-id="SLmarketingCloudEnabled">false</preference>
+            <preference preference-id="SLmarketingCloudListId">407A7762-AE61-4E0B-9B24-61D1CF53D8D8</preference>
+            <preference preference-id="SLmarketingCloudSubscriberFields">
+                <value>EmailAddress</value>
+                <value>FirstName</value>
+                <value>LastName</value>
+                <value>Country</value>
+                <value>ZipCode</value>
+                <value>ChildName</value>
+                <value>ChildGender</value>
+            </preference>
+            <preference preference-id="accessibilityEnabled">true</preference>
+            <preference preference-id="ageVerificationValue">18</preference>
+            <preference preference-id="allowBTPayPalAccountSave">false</preference>
+            <preference preference-id="autocompleteCountries">
+                <value>US</value>
+            </preference>
+            <preference preference-id="azureImageExtension">jpg</preference>
+            <preference preference-id="azureURLPermanent">https://sthmbydiaperimagdevncus.blob.core.windows.net/permanent/</preference>
+            <preference preference-id="azureURLTemp">https://sthmbydiaperimagdevncus.blob.core.windows.net/temp/</preference>
+            <preference preference-id="bvReviewsContentID">product-reviews-image</preference>
+            <preference preference-id="bvReviewsEnable">true</preference>
+            <preference preference-id="bvScriptSource">https://apps.bazaarvoice.com/deployments/huggies/huggiesmadebyyou/staging/en_US/bv.js</preference>
+            <preference preference-id="captureOrderOnStatusUpdate">true</preference>
+            <preference preference-id="coRegistrationBrand">6</preference>
+            <preference preference-id="coRegistrationEnable">true</preference>
+            <preference preference-id="coRegistrationSourceID">1059</preference>
+            <preference preference-id="coRegistrationVendorID">29</preference>
+            <preference preference-id="configuratorProductID">HUGMBYDIAP</preference>
+            <preference preference-id="contactUsConfig">
+                {
+                    "emailsConfig": {
+                       "OrderingAssistance": [
+                        ],
+                        "OrderStatus": [
+                        ],
+                        "ProductInquiry": [
+                        ],
+                        "Other": [
+                        ]
+                    },
+                    "contactNumber":"1-877-546-2273"
+                }
+            </preference>
+            <preference preference-id="countryCode">US</preference>
+            <preference preference-id="customerServiceEmail">Huggies.HMBY@k-cmail.com</preference>
+            <preference preference-id="disScalingProperties">
+                {
+                    "search": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 40,
+                            "scaleHeight": 40,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "minicart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "cart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "wishlist": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "backinstock": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "order": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "producttile": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 350,
+                            "scaleHeight": 350,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "pdp": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "large": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "zoom": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 1000,
+                            "scaleHeight": 1000,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorProduct": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 570,
+                            "scaleHeight": 570,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorTile": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 124,
+                            "scaleHeight": 124,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorBanner": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 450,
+                            "scaleHeight": 200,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorCard": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 300,
+                            "scaleHeight": 150,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="displayChildGenderDOBLocation">billing</preference>
+            <preference preference-id="emailCustomerOnStatusUpdate">true</preference>
+            <preference preference-id="emailsAssetsConfigurations">
+                {
+                    "registration": {
+                        "enabled": true,
+                        "subject": "Welcome to Huggies Made by You",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-creation-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordReset": {
+                        "enabled": true,
+                        "subject": "Reset your Huggies Made by You password",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-forgot-password-link",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordChanged": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You password has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-reset-password-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShippingConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-shipping-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "FastOMSOrderConfirmation": {
+                        "enabled": true,
+                        "subject": "Thank you for your order!",
+                        "assets": {
+                            "body": "fastoms-email-order-confirmation",
+                            "footer": "email-general-footer-oms"
+                        }
+                    },
+                    "accountLocked": {
+                        "enabled": true,
+                        "subject": "Your Account on Huggies Made by You has been locked",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-locked",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountVerification": {
+                        "enabled": true,
+                        "subject": "Please verify your Huggies Made by You account",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-activation-verification",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountEdited": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You account details has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-information",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToSupport": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToCustomer": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received-no-header-footer",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "backInStock": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-product-back-in-stock",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "giftRegistry": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-gift-registry-product-purchased",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShipmentUpdate": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-shipment-updates",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistSubscribed": {
+                        "enabled": true,
+                        "subject": "Subscribed to waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistUnsubscribed": {
+                        "enabled": true,
+                        "subject": "Unsubscribed from waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-unsubscription",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistInStock": {
+                        "enabled": true,
+                        "subject": "Waitlist - Product now in stock",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-instock",
+                            "footer": "email-general-footer"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="enableAgeVerification">true</preference>
+            <preference preference-id="enableBackInStock">false</preference>
+            <preference preference-id="enableBraintree">true</preference>
+            <preference preference-id="enableChildGenderDOB">true</preference>
+            <preference preference-id="enableContentSuggestionImage">false</preference>
+            <preference preference-id="enableCouponOnCheckout">true</preference>
+            <preference preference-id="enableDoubleOptin">true</preference>
+            <preference preference-id="enableEGiftCard">false</preference>
+            <preference preference-id="enableFooterNewsletter">true</preference>
+            <preference preference-id="enableGoogleOAuthProvider">false</preference>
+            <preference preference-id="enableGooglePlaceAutocomplete">true</preference>
+            <preference preference-id="enableGoogleRecaptha">true</preference>
+            <preference preference-id="enableQuickView">false</preference>
+            <preference preference-id="enableSearch">false</preference>
+            <preference preference-id="enableTransactionalSite">true</preference>
+            <preference preference-id="enableValidity">true</preference>
+            <preference preference-id="enableWaitList">false</preference>
+            <preference preference-id="enableWishlist">false</preference>
+            <preference preference-id="gtmClick">true</preference>
+            <preference preference-id="gtmContainerID">GTM-WCW4J3M</preference>
+            <preference preference-id="gtmEnabled">true</preference>
+            <preference preference-id="gtmHover">true</preference>
+            <preference preference-id="gtmScroll">true</preference>
+            <preference preference-id="mapAPI">AIzaSyC0YoE3YJwivOZJBGpcIqpwkk_CMpMhN0s</preference>
+            <preference preference-id="maxOrderQuantity">20.0</preference>
+            <preference preference-id="oneTrustEnabled">true</preference>
+            <preference preference-id="oneTrustSource">https://optanon.blob.core.windows.net/consent/d3d4433a-21da-4b6b-a03e-6e6b40631456-test.js</preference>
+            <preference preference-id="pdpDescriptionAttributes">
+                <value>tabDetails</value>
+                <value>details</value>
+                <value>shortDescription</value>
+                <value>longDescription</value>
+            </preference>
+            <preference preference-id="pipelinesMetaTagsContent">{
+                "Account-EditPassword": "account-editpassword-meta",
+                "Account-EditProfile": "account-editprofile-meta",
+                "Account-PasswordReset": "account-passwordreset-meta",
+                "Account-SetNewPassword": "account-setnewpassword-meta",
+                "Account-Show": "account-show-meta",
+                "Address-AddAddress": "address-addaddress-meta",
+                "Address-EditAddress": "address-editaddress-meta",
+                "Address-List": "address-list-meta",
+                "Cart-Show": "cart-show-meta",
+                "Checkout-Begin": "checkout-begin-meta",
+                "Checkout-Login": "checkout-login-meta",
+                "ContactUs-Landing": "contact-us-landing-meta",
+                "CSRF-Fail": "error-meta",
+                "Default-Offline": "default-offline-meta",
+                "Error-ErrorCode": "error-meta",
+                "Error-Start": "error-meta",
+                "Home-ErrorNotFound": "error-meta",
+                "RedirectURL-Start" : "error-meta",
+                "Login-Show": "login-show-meta",
+                "Order-Confirm": "order-confirm-meta",
+                "Order-Details": "order-details-meta",
+                "Order-History": "order-history-meta",
+                "Order-Track": "order-track-meta",
+                "PaymentInstruments-AddPayment": "paymentinstruments-addpayment-meta",
+                "PaymentInstruments-List": "paymentinstruments-list-meta",
+                "Search-Content": "search-content-meta",
+                "Search-Show": "search-show-meta",
+                "Stores-Find": "stores-find-meta",
+                "Wishlist-Show": "wishlist-show-meta",
+                "Configurator-Start": "configurator-start-meta",
+                "Configurator-App": "configurator-app-meta",
+                "Product-Reviews": "product-reviews-meta",
+                "Product-Configured": "product-configured-meta"
+                }
+            </preference>
+            <preference preference-id="profanityWords">anus,arse,arsehole,ass,ass hole,ass holes,ass kisser,ass lick,ass wipe,assbag,assbandit,assbanger,assbite,assclown,asscock,asscracker,asses,assface,assfuck,assfucker,assgoblin,asshat,ass-hat,asshead,asshole,asshopper,ass-jabber,assjacker,asslick,asslicker,assmonkey,assmunch,assmuncher,assnigger,asspirate,ass-pirate,assshit,assshole,asssucker,asswad,asswipe,axwound,balls,bampot,bastard,beaner,beastial,beastiality,beastility,beaver,belly whacker,bestial,bestiality,bitch,bitchass,bitcher,bitchers,bitches,bitches,bitchin,bitching,bitchtits,bitchy,blow job,blow jobs,blowjob,bollocks,bollox,bone head,boner,brotherfucker,brown eye,browntown,bucket cunt,bull shit,bullshit,bum,bumblefuck,bung hole,butch,butt,butt breath,butt face,butt fuck,butt fucker,butt hair,butt head,butt hole,butt picker,butt plug,buttfucka,buttfucker,butt,camel toe,carpetmuncher,chesticle,chinc,chink,choad,chode,christ,circle jerk,clam,clit,clitface,clitfuck,clusterfuck,cobia,cock,cock suck,cock sucked,cock sucker,cock sucking,cock sucks,cockass,cockbite,cockburger,cockface,cockfucker,cockhead,cockjockey,cockknoker,cockmaster,cockmongler,cockmongruel,cockmonkey,cockmuncher,cocknose,cocknugget,cocks,cockshit,cocksmith,cocksmoke,cocksmoker,cocksniffer,cocksucker,cockwaffle,Cojones,cojon,coochie,coochy,coon,cooter,cooter,cracker,crap,cum,cum shot,cumbubble,cumdumpster,cumguzzler,cumjockey,cummer,cumming,cums,cumslut,cumtart,cunilingus,cunillingus,cunnie,cunnilingus,cunt,cuntass,cuntface,cunthole,cuntlick,cuntlicker,cuntlicking,cuntrag,cunts,cuntslut,cyber fuc,cyber fuck,cyber fucked,cyber fucker,cyber fuckers,cyber fucking,dago,damn,deggo,dick,dickbag,dickbeaters,dickface,dickfuck,dickfucker,dickhead,dickhole,dickjuice,dickmilk,dickmonger,dicks,dicks,dickslap,dick,dicksucker,dicksucking,dicktickler,dickwad,dickweasel,dickweed,dickwod,dike,dildo,dildos,dink,dinks,dipshit,dong,doochbag,dookie,douche,douche bag,douchebag,douche-fag,douchewaffle,dumass,dumb ass,dumbass,dumbfuck,dumbshit,dumshit,dyke,ejaculate,ejaculated,ejaculates,ejaculating,ejaculatings,ejaculation,fag,fagbag,fagfucker,fagget,fagging,faggit,faggot,faggotcock,faggs,fagot,fagots,fags,fagtard,fart,farted,farting,fartings,farts,farty,fat ass,fatass,fatso,felatio,fellatio,fellatio,feltch,finger fuck,finger fucked,finger fucker,finger fuckers,finger fucking,finger fucks,fist fuck,fist fucked,fist fucker,fist fuckers,fist fucking,fist fuckings,fist fucks,flamer,fuck,fuckass,fuckbag,fuckboy,fuckbrain,fuckbutt,fuckbutter,fucked,fucker,fuckers,fuckersucker,fuckface,fuckhead,fuckhole,fuckin,fucking,fuckings,fuckme,fucknut,fucknutt,fuckoff,fucks,fuckstick,fucktard,fucktart,fuckup,fuckwad,fuckwit,fuckwitt,fudgepacker,fuk,fuks,fur burger,gang bang,gang banged,gang bangs,gay,gay sex,gayass,gaybob,gaydo,gayfuck,gayfuckist,gaylord,gaytard,gaywad,gazongers,goddamn,goddamnit,gonads,gooch,gook,gringo,guido,guinne,handjob,hard on,hardcoresex,heeb,hell,ho,hoe,homo,homodumbshit,honkey,hooker,horniest,horny,hotsex,humping,hussy,jack off,jackass,jacking off,jackoff,jagoff,jap,jerk off,jerkass,jesus christ,jew,jigaboo,jism,jiz,jizm,jizz,jungle bunny,junglebunny,kike,knob,kock,kondum,kondums,kooch,kootch,kraut,kum,kummer,kumming,kums,kunilingus,kunt,kyke,lameass,lardass,lesbian,lesbo,lezzie,loser,lust,lusting,mcfagget,merde,mick,mick,minge,mothafuck,mothafucka,mothafuckas,mothafuckaz,mothafucked,mothafucker,mothafuckers,mothafuckin,mothafuckin',mothafucking,mothafuckings,mothafucks,mother fuck,mother fucked,mother fucker,mother fuckers,mother fuckin,mother fucking,mother fuckings,mother fucks,motherfucker,motherfucking,mound,muff,muffdiver,munging,negro,nerd,nigaboo,nigga,nigger,niggers,niggers,niglet,nut sack,nutsack,orgasim,orgasims,orgasm,orgasms,paki,panooch,pecker,peckerhead,penis,penisbanger,penisfucker,penispuffer,phonesex,phuk,phuked,phuking,phukked,phukking,phuks,phuq,pimp,piss,piss off,pissed,pissed,pissed off,pisser,pissers,pisses,pissflaps,pissin,pissing,polesmoker,pollock,poon,poonani,poonany,poontang,porch monkey,porchmonkey,porn,porno,pornography,pornos,prick,pricks,prostitute,punanny,punk,punta,pussies,pussies,pussy,pussylicking,pussys,puto,queef,queer,queerbait,queerhole,renob,retard,rimjob,ruski,sand nigger,sandnigger,schlong,screw,scrote,sheister,shit,shit face,shit faced,shit head,shitass,shitbag,shitbagger,shitbrains,shitbreath,shitcanned,shitcunt,shitdick,shited,shitface,shitfaced,shitfull,shithead,shithole,shithouse,shiting,shitings,shits,shitspitter,shitstain,shitted,shitter,shitter,shitters,shittiest,shitting,shittings,shitty,shiz,shiznit,skank,skeet,skullfuck,slag,sleaze,slut,slutbag,sluts,smeg,smut,snatch,spic,spick,splooge,spook,spunk,suckass,tard,testicle,thundercunt,tit,titfuck,tits,tittyfuck,twat,twatlips,twats,twatwaffle,unclefucker,vag,vagina,vajayjay,va-j-j,vjayjay,wank,wankjob,wetback,whore,whore,whorebag,whoreface,wop,ahuevado,ano,baboso,bastardo,bereco,bestia,bobo,bronca,buchon,buchón,buey,cabron,cabrón,cacaso,cachucha,cagar,capullo,carajo,cerote,chilguete,chimba,chingada,chingado,chingar,chocho,chupar,clitoris,cocho,cogerse,cogida,cojer,cojón,cojonudo,concha,condon,coño,consolador,culear,culera,culero,culo,dundo,empedarse,encachimbado,ereccion,erección,estupido,estúpido,exitar,eyacular,faje,fornicar,forro,gilipollas,gonorrea,gonorriento,gueba,guevon,guey,güey,guila,güila,hecho mierda,hijo de puta,hijueputa,homosexual,hueva,hueva,huevear,huevon,huevonada,huevos,idiota,imbecil,imbécil,jinetera,jodanse,joder,jodete,joto,lesbiana,locochón,maje,malparido,mamahuevo,mamón,marero,marica,marica,maricon,maricón,mariposilla,mariposón,masturbador,masturbar,mayate,menso,miar,mierda,mota,nerdo,orgasmo,orinar,paja,paloma,pandillero,peda,pedo,pelotudo,pendejo,pene,peperecha,perra,perro,pija,pijura,pinche,pingas,pingo,pipián,piruja,pirujo,pisar,pito,pollero,prostituta,pudrete,púdrete,puñal,puta,puta madre,putazo,puto,ramera,retardado,retrograda,reventado,tarado,testiculo,testiculos,tetas,tizo,tortillera,transa,tranza,tronársela,uta,vagina,vagina,verga,zoquete,zorra,zorro,Ass,Bmu,Cmu,Fga,Fku,Gya,Heo,Jpa,Jwe,Jzi,Kmu,Tti,Vga,Wpo,wtf,wft,aOn,ano,uAt,uta,$*it,Bastard,F**ker,Pooper,Sex Produced,sexy time made,Cojones,cojon</preference>
+            <preference preference-id="rateLimiterThreshold">3</preference>
+            <preference preference-id="recaptchaSiteKey">6LebwNcUAAAAAG_UELvREbA99Jom6GEdmkTFaVs1</preference>
+            <preference preference-id="searchResultsOptions">
+                <value>products</value>
+                <value>articles</value>
+            </preference>
+            <preference preference-id="searchSuggestionsOptions">
+                <value>content</value>
+            </preference>
+            <preference preference-id="separateLoginRegister">false</preference>
+            <preference preference-id="themeConfiguratorBackgroundPrimary">#fff</preference>
+            <preference preference-id="themeConfiguratorBackgroundSecondary">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorBorderPrimary">#000</preference>
+            <preference preference-id="themeConfiguratorCTABorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorCTABorderWidth">2</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCustomIcons">acf-font.woff</preference>
+            <preference preference-id="themeConfiguratorEmailLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorEnabled">true</preference>
+            <preference preference-id="themeConfiguratorFavIcon16">favicon-16x16.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon192">favicon-192x192.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon48">favicon-48x48.png</preference>
+            <preference preference-id="themeConfiguratorFieldFocusBorder">#000</preference>
+            <preference preference-id="themeConfiguratorFieldFocusOutline">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorFooterAnchor">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterAnchorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterBackground">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorFooterBacktotop">#000</preference>
+            <preference preference-id="themeConfiguratorFooterHeading">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColor">#868686</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterText">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerBackgroundColor">#c8dff0</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonBackgroundColor">transparent</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonTextColor">#000</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerTextColor">#000000</preference>
+            <preference preference-id="themeConfiguratorHeaderBgColor">#fff</preference>
+            <preference preference-id="themeConfiguratorHeaderFixed">true</preference>
+            <preference preference-id="themeConfiguratorHeaderIconsColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextHoverColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorInputBorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorLogoLarge">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorLogoSmall">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorMainNavAlign">right</preference>
+            <preference preference-id="themeConfiguratorMainNavBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBorderColor">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownHoverBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorMainNavTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorTextSecondary">#000</preference>
+            <preference preference-id="themeConfiguratorTextSpecial">#e1251b</preference>
+            <preference preference-id="trackingType">product</preference>
+            <preference preference-id="trackingURL">https://www.ups.com/track?tracknum={trackingNumber}</preference>
+            <preference preference-id="useAzurePermanentStorage">true</preference>
+            <preference preference-id="useDISRemote">false</preference>
+            <preference preference-id="zoom_Xoffset">30</preference>
+            <preference preference-id="zoom_defaultScale">-1.0</preference>
+            <preference preference-id="zoom_enabled">true</preference>
+            <preference preference-id="zoom_lens">false</preference>
+            <preference preference-id="zoom_lensOpacity">0.7</preference>
+            <preference preference-id="zoom_lensShape">circle</preference>
+            <preference preference-id="zoom_position">lens</preference>
+            <preference preference-id="zoom_tint">#333</preference>
+            <preference preference-id="zoom_tintOpacity">0.5</preference>
+        </staging>
+        <production>
+            <preference preference-id="ATCustomerCode">customer_number</preference>
+            <preference preference-id="ATEnable">true</preference>
+            <preference preference-id="ATEnableAddressValidation">false</preference>
+            <preference preference-id="ATEnableTesting">false</preference>
+            <preference preference-id="AtCommitTransaction">true</preference>
+            <preference preference-id="AtCompanyCode">KC_HMBY</preference>
+            <preference preference-id="AtDocumentCommitAllowed">true</preference>
+            <preference preference-id="AtShipFromCity">Neenah</preference>
+            <preference preference-id="AtShipFromCountryCode">US</preference>
+            <preference preference-id="AtShipFromLine1">8556 Martin Dr</preference>
+            <preference preference-id="AtShipFromLocationCode">DEFAULT</preference>
+            <preference preference-id="AtShipFromStateCode">WI</preference>
+            <preference preference-id="AtShipFromZipCode">54956</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_3DSecure_Skip_Client_Validation_Result">disabled</preference>
+            <preference preference-id="BRAINTREE_APPLEPAY_Visibility_Button_On_Cart">false</preference>
+            <preference preference-id="BRAINTREE_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_L2_L3">false</preference>
+            <preference preference-id="BRAINTREE_Logging_Mode">errors</preference>
+            <preference preference-id="BRAINTREE_Merchant_Account_IDs">
+                <value>USD:KC_HMBY_instant</value>
+            </preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Billing_Address_Override">true</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Button_Location">CartMinicart</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Display_Name">KC</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Fraud_Tools_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Locale">en_US</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_PayNow_Button_Enabled">disabled</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payee_Email">kclarkcustomerservice@umcommerce.com</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Shipping_Address_Override">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_ShowCreditFinancialBanners">false</preference>
+            <preference preference-id="BRAINTREE_PAYPAL_Vault_Mode">not</preference>
+            <preference preference-id="BRAINTREE_Payment_Model">authorization</preference>
+            <preference preference-id="BRAINTREE_Tokenization_Key">production_kt4y2rtc_5xbr522brhnv63wb</preference>
+            <preference preference-id="BRAINTREE_Vault_Mode">always</preference>
+            <preference preference-id="FOMSEnableOrderCancellationEmail">false</preference>
+            <preference preference-id="FOMSEnableRefundConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnConfirmationEmail">false</preference>
+            <preference preference-id="FOMSEnableReturnItemsStepsEmail">false</preference>
+            <preference preference-id="FOMSOCAPIClientID">52709a98-332f-4d1d-a4c7-e1afb8ea05aa</preference>
+            <preference preference-id="FOMSOCAPIPassword">dlFHy+cuCtyxGSVbxWmfQhYd/pdOTlXiAdOw1d0AdYw0B/v7ACj7INK7VGMeNBZZ</preference>
+            <preference preference-id="FOMSOCAPIVersion">19.8</preference>
+            <preference preference-id="LOMSEncryptionKey">pR04KxkGfDZKbZ4HfcUCb+hetGjKljZSwmzDCcQnqzde8F6X4QiXSSuy95jUR1LMSLuMBUA68RlQlSjR/QGMQoMRYheXw3PV4Edoeh9Q6TU=</preference>
+            <preference preference-id="SLmarketingCloudEnabled">false</preference>
+            <preference preference-id="accessibilityEnabled">true</preference>
+            <preference preference-id="ageVerificationValue">18</preference>
+            <preference preference-id="allowBTPayPalAccountSave">false</preference>
+            <preference preference-id="autocompleteCountries">
+                <value>US</value>
+            </preference>
+            <preference preference-id="azureImageExtension">jpg</preference>
+            <preference preference-id="azureURLPermanent">https://sthmbydiaperimagdevncus.blob.core.windows.net/permanent/</preference>
+            <preference preference-id="azureURLTemp">https://sthmbydiaperimagdevncus.blob.core.windows.net/temp/</preference>
+            <preference preference-id="bvReviewsContentID">product-reviews-image</preference>
+            <preference preference-id="bvReviewsEnable">true</preference>
+            <preference preference-id="bvScriptSource">https://apps.bazaarvoice.com/deployments/huggies/huggiesmadebyyou/production/en_US/bv.js</preference>
+            <preference preference-id="captureOrderOnStatusUpdate">true</preference>
+            <preference preference-id="coRegistrationBrand">6</preference>
+            <preference preference-id="coRegistrationEnable">true</preference>
+            <preference preference-id="coRegistrationSourceID">1099</preference>
+            <preference preference-id="coRegistrationVendorID">28</preference>
+            <preference preference-id="configuratorProductID">HUGMBYDIAP</preference>
+            <preference preference-id="contactUsConfig">
+                {
+                    "emailsConfig": {
+                       "OrderingAssistance": [
+                        ],
+                        "OrderStatus": [
+                        ],
+                        "ProductInquiry": [
+                        ],
+                        "Other": [
+                        ]
+                    },
+                    "contactNumber":"1-877-546-2273"
+                }
+            </preference>
+            <preference preference-id="countryCode">US</preference>
+            <preference preference-id="customerServiceEmail">Huggies.HMBY@k-cmail.com</preference>
+            <preference preference-id="disScalingProperties">
+                {
+                    "search": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 40,
+                            "scaleHeight": 40,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "minicart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "cart": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "wishlist": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "backinstock": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "order": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 90,
+                            "scaleHeight": 90,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "producttile": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 350,
+                            "scaleHeight": 350,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "pdp": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "large": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 550,
+                            "scaleHeight": 550,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "zoom": {
+                        "sourceViewType": "original",
+                        "scalingProperties": {
+                            "scaleWidth": 1000,
+                            "scaleHeight": 1000,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorProduct": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 570,
+                            "scaleHeight": 570,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorTile": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 124,
+                            "scaleHeight": 124,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorBanner": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 450,
+                            "scaleHeight": 200,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    },
+                    "configuratorCard": {
+                        "sourceViewType": "library",
+                        "scalingProperties": {
+                            "scaleWidth": 300,
+                            "scaleHeight": 150,
+                            "scaleMode": "fit",
+                            "quality": "high"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="displayChildGenderDOBLocation">billing</preference>
+            <preference preference-id="emailCustomerOnStatusUpdate">true</preference>
+            <preference preference-id="emailsAssetsConfigurations">
+                {
+                    "registration": {
+                        "enabled": true,
+                        "subject": "Welcome to Huggies Made by You",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-creation-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordReset": {
+                        "enabled": true,
+                        "subject": "Reset your Huggies Made by You password",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-forgot-password-link",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "passwordChanged": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You password has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-reset-password-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShippingConfirmation": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You Order Confirmation",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-shipping-order-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "FastOMSOrderConfirmation": {
+                        "enabled": true,
+                        "subject": "Thank you for your order!",
+                        "assets": {
+                            "body": "fastoms-email-order-confirmation",
+                            "footer": "email-general-footer-oms"
+                        }
+                    },
+                    "accountLocked": {
+                        "enabled": true,
+                        "subject": "Your Account on Huggies Made by You has been locked",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-locked",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountVerification": {
+                        "enabled": true,
+                        "subject": "Please verify your Huggies Made by You account",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-activation-verification",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "accountEdited": {
+                        "enabled": true,
+                        "subject": "Your Huggies Made by You account details has been changed",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-account-information",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToSupport": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "contactUsToCustomer": {
+                        "enabled": true,
+                        "subject": "Contact Us - Message Received",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-contact-us-request-received-no-header-footer",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "backInStock": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-product-back-in-stock",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "giftRegistry": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-gift-registry-product-purchased",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "orderShipmentUpdate": {
+                        "enabled": true,
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-order-shipment-updates",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistSubscribed": {
+                        "enabled": true,
+                        "subject": "Subscribed to waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-confirmation",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistUnsubscribed": {
+                        "enabled": true,
+                        "subject": "Unsubscribed from waitlist",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-unsubscription",
+                            "footer": "email-general-footer"
+                        }
+                    },
+                    "waitlistInStock": {
+                        "enabled": true,
+                        "subject": "Waitlist - Product now in stock",
+                        "assets": {
+                            "header": "email-general-header",
+                            "body": "email-waitlist-instock",
+                            "footer": "email-general-footer"
+                        }
+                    }
+                }
+            </preference>
+            <preference preference-id="enableAgeVerification">true</preference>
+            <preference preference-id="enableBackInStock">false</preference>
+            <preference preference-id="enableBraintree">true</preference>
+            <preference preference-id="enableChildGenderDOB">true</preference>
+            <preference preference-id="enableContentSuggestionImage">false</preference>
+            <preference preference-id="enableCouponOnCheckout">true</preference>
+            <preference preference-id="enableDoubleOptin">true</preference>
+            <preference preference-id="enableEGiftCard">false</preference>
+            <preference preference-id="enableFooterNewsletter">true</preference>
+            <preference preference-id="enableGoogleOAuthProvider">false</preference>
+            <preference preference-id="enableGooglePlaceAutocomplete">true</preference>
+            <preference preference-id="enableGoogleRecaptha">true</preference>
+            <preference preference-id="enableQuickView">false</preference>
+            <preference preference-id="enableSearch">false</preference>
+            <preference preference-id="enableTransactionalSite">true</preference>
+            <preference preference-id="enableValidity">true</preference>
+            <preference preference-id="enableWaitList">false</preference>
+            <preference preference-id="enableWishlist">false</preference>
+            <preference preference-id="gtmClick">true</preference>
+            <preference preference-id="gtmContainerID">GTM-NXWXHJB</preference>
+            <preference preference-id="gtmEnabled">true</preference>
+            <preference preference-id="gtmHover">true</preference>
+            <preference preference-id="gtmScroll">true</preference>
+            <preference preference-id="mapAPI">AIzaSyBEpyAAYsewmEOjGgDy9Dd01KFB25UQQyo</preference>
+            <preference preference-id="maxOrderQuantity">20.0</preference>
+            <preference preference-id="oneTrustEnabled">true</preference>
+            <preference preference-id="oneTrustSource">https://cdn.cookielaw.org/langswitch/9389d110-91ab-4468-a98f-1381bcd41df2.js</preference>
+            <preference preference-id="pdpDescriptionAttributes">
+                <value>tabDetails</value>
+                <value>details</value>
+                <value>shortDescription</value>
+                <value>longDescription</value>
+            </preference>
+            <preference preference-id="pipelinesMetaTagsContent">{
+                "Account-EditPassword": "account-editpassword-meta",
+                "Account-EditProfile": "account-editprofile-meta",
+                "Account-PasswordReset": "account-passwordreset-meta",
+                "Account-SetNewPassword": "account-setnewpassword-meta",
+                "Account-Show": "account-show-meta",
+                "Address-AddAddress": "address-addaddress-meta",
+                "Address-EditAddress": "address-editaddress-meta",
+                "Address-List": "address-list-meta",
+                "Cart-Show": "cart-show-meta",
+                "Checkout-Begin": "checkout-begin-meta",
+                "Checkout-Login": "checkout-login-meta",
+                "ContactUs-Landing": "contact-us-landing-meta",
+                "CSRF-Fail": "error-meta",
+                "Default-Offline": "default-offline-meta",
+                "Error-ErrorCode": "error-meta",
+                "Error-Start": "error-meta",
+                "Home-ErrorNotFound": "error-meta",
+                "RedirectURL-Start" : "error-meta",
+                "Login-Show": "login-show-meta",
+                "Order-Confirm": "order-confirm-meta",
+                "Order-Details": "order-details-meta",
+                "Order-History": "order-history-meta",
+                "Order-Track": "order-track-meta",
+                "PaymentInstruments-AddPayment": "paymentinstruments-addpayment-meta",
+                "PaymentInstruments-List": "paymentinstruments-list-meta",
+                "Search-Content": "search-content-meta",
+                "Search-Show": "search-show-meta",
+                "Stores-Find": "stores-find-meta",
+                "Wishlist-Show": "wishlist-show-meta",
+                "Configurator-Start": "configurator-start-meta",
+                "Configurator-App": "configurator-app-meta",
+                "Product-Reviews": "product-reviews-meta",
+                "Product-Configured": "product-configured-meta"
+                }
+            </preference>
+            <preference preference-id="profanityWords">anus,arse,arsehole,ass,ass hole,ass holes,ass kisser,ass lick,ass wipe,assbag,assbandit,assbanger,assbite,assclown,asscock,asscracker,asses,assface,assfuck,assfucker,assgoblin,asshat,ass-hat,asshead,asshole,asshopper,ass-jabber,assjacker,asslick,asslicker,assmonkey,assmunch,assmuncher,assnigger,asspirate,ass-pirate,assshit,assshole,asssucker,asswad,asswipe,axwound,balls,bampot,bastard,beaner,beastial,beastiality,beastility,beaver,belly whacker,bestial,bestiality,bitch,bitchass,bitcher,bitchers,bitches,bitches,bitchin,bitching,bitchtits,bitchy,blow job,blow jobs,blowjob,bollocks,bollox,bone head,boner,brotherfucker,brown eye,browntown,bucket cunt,bull shit,bullshit,bum,bumblefuck,bung hole,butch,butt,butt breath,butt face,butt fuck,butt fucker,butt hair,butt head,butt hole,butt picker,butt plug,buttfucka,buttfucker,butt,camel toe,carpetmuncher,chesticle,chinc,chink,choad,chode,christ,circle jerk,clam,clit,clitface,clitfuck,clusterfuck,cobia,cock,cock suck,cock sucked,cock sucker,cock sucking,cock sucks,cockass,cockbite,cockburger,cockface,cockfucker,cockhead,cockjockey,cockknoker,cockmaster,cockmongler,cockmongruel,cockmonkey,cockmuncher,cocknose,cocknugget,cocks,cockshit,cocksmith,cocksmoke,cocksmoker,cocksniffer,cocksucker,cockwaffle,Cojones,cojon,coochie,coochy,coon,cooter,cooter,cracker,crap,cum,cum shot,cumbubble,cumdumpster,cumguzzler,cumjockey,cummer,cumming,cums,cumslut,cumtart,cunilingus,cunillingus,cunnie,cunnilingus,cunt,cuntass,cuntface,cunthole,cuntlick,cuntlicker,cuntlicking,cuntrag,cunts,cuntslut,cyber fuc,cyber fuck,cyber fucked,cyber fucker,cyber fuckers,cyber fucking,dago,damn,deggo,dick,dickbag,dickbeaters,dickface,dickfuck,dickfucker,dickhead,dickhole,dickjuice,dickmilk,dickmonger,dicks,dicks,dickslap,dick,dicksucker,dicksucking,dicktickler,dickwad,dickweasel,dickweed,dickwod,dike,dildo,dildos,dink,dinks,dipshit,dong,doochbag,dookie,douche,douche bag,douchebag,douche-fag,douchewaffle,dumass,dumb ass,dumbass,dumbfuck,dumbshit,dumshit,dyke,ejaculate,ejaculated,ejaculates,ejaculating,ejaculatings,ejaculation,fag,fagbag,fagfucker,fagget,fagging,faggit,faggot,faggotcock,faggs,fagot,fagots,fags,fagtard,fart,farted,farting,fartings,farts,farty,fat ass,fatass,fatso,felatio,fellatio,fellatio,feltch,finger fuck,finger fucked,finger fucker,finger fuckers,finger fucking,finger fucks,fist fuck,fist fucked,fist fucker,fist fuckers,fist fucking,fist fuckings,fist fucks,flamer,fuck,fuckass,fuckbag,fuckboy,fuckbrain,fuckbutt,fuckbutter,fucked,fucker,fuckers,fuckersucker,fuckface,fuckhead,fuckhole,fuckin,fucking,fuckings,fuckme,fucknut,fucknutt,fuckoff,fucks,fuckstick,fucktard,fucktart,fuckup,fuckwad,fuckwit,fuckwitt,fudgepacker,fuk,fuks,fur burger,gang bang,gang banged,gang bangs,gay,gay sex,gayass,gaybob,gaydo,gayfuck,gayfuckist,gaylord,gaytard,gaywad,gazongers,goddamn,goddamnit,gonads,gooch,gook,gringo,guido,guinne,handjob,hard on,hardcoresex,heeb,hell,ho,hoe,homo,homodumbshit,honkey,hooker,horniest,horny,hotsex,humping,hussy,jack off,jackass,jacking off,jackoff,jagoff,jap,jerk off,jerkass,jesus christ,jew,jigaboo,jism,jiz,jizm,jizz,jungle bunny,junglebunny,kike,knob,kock,kondum,kondums,kooch,kootch,kraut,kum,kummer,kumming,kums,kunilingus,kunt,kyke,lameass,lardass,lesbian,lesbo,lezzie,loser,lust,lusting,mcfagget,merde,mick,mick,minge,mothafuck,mothafucka,mothafuckas,mothafuckaz,mothafucked,mothafucker,mothafuckers,mothafuckin,mothafuckin',mothafucking,mothafuckings,mothafucks,mother fuck,mother fucked,mother fucker,mother fuckers,mother fuckin,mother fucking,mother fuckings,mother fucks,motherfucker,motherfucking,mound,muff,muffdiver,munging,negro,nerd,nigaboo,nigga,nigger,niggers,niggers,niglet,nut sack,nutsack,orgasim,orgasims,orgasm,orgasms,paki,panooch,pecker,peckerhead,penis,penisbanger,penisfucker,penispuffer,phonesex,phuk,phuked,phuking,phukked,phukking,phuks,phuq,pimp,piss,piss off,pissed,pissed,pissed off,pisser,pissers,pisses,pissflaps,pissin,pissing,polesmoker,pollock,poon,poonani,poonany,poontang,porch monkey,porchmonkey,porn,porno,pornography,pornos,prick,pricks,prostitute,punanny,punk,punta,pussies,pussies,pussy,pussylicking,pussys,puto,queef,queer,queerbait,queerhole,renob,retard,rimjob,ruski,sand nigger,sandnigger,schlong,screw,scrote,sheister,shit,shit face,shit faced,shit head,shitass,shitbag,shitbagger,shitbrains,shitbreath,shitcanned,shitcunt,shitdick,shited,shitface,shitfaced,shitfull,shithead,shithole,shithouse,shiting,shitings,shits,shitspitter,shitstain,shitted,shitter,shitter,shitters,shittiest,shitting,shittings,shitty,shiz,shiznit,skank,skeet,skullfuck,slag,sleaze,slut,slutbag,sluts,smeg,smut,snatch,spic,spick,splooge,spook,spunk,suckass,tard,testicle,thundercunt,tit,titfuck,tits,tittyfuck,twat,twatlips,twats,twatwaffle,unclefucker,vag,vagina,vajayjay,va-j-j,vjayjay,wank,wankjob,wetback,whore,whore,whorebag,whoreface,wop,ahuevado,ano,baboso,bastardo,bereco,bestia,bobo,bronca,buchon,buchón,buey,cabron,cabrón,cacaso,cachucha,cagar,capullo,carajo,cerote,chilguete,chimba,chingada,chingado,chingar,chocho,chupar,clitoris,cocho,cogerse,cogida,cojer,cojón,cojonudo,concha,condon,coño,consolador,culear,culera,culero,culo,dundo,empedarse,encachimbado,ereccion,erección,estupido,estúpido,exitar,eyacular,faje,fornicar,forro,gilipollas,gonorrea,gonorriento,gueba,guevon,guey,güey,guila,güila,hecho mierda,hijo de puta,hijueputa,homosexual,hueva,hueva,huevear,huevon,huevonada,huevos,idiota,imbecil,imbécil,jinetera,jodanse,joder,jodete,joto,lesbiana,locochón,maje,malparido,mamahuevo,mamón,marero,marica,marica,maricon,maricón,mariposilla,mariposón,masturbador,masturbar,mayate,menso,miar,mierda,mota,nerdo,orgasmo,orinar,paja,paloma,pandillero,peda,pedo,pelotudo,pendejo,pene,peperecha,perra,perro,pija,pijura,pinche,pingas,pingo,pipián,piruja,pirujo,pisar,pito,pollero,prostituta,pudrete,púdrete,puñal,puta,puta madre,putazo,puto,ramera,retardado,retrograda,reventado,tarado,testiculo,testiculos,tetas,tizo,tortillera,transa,tranza,tronársela,uta,vagina,vagina,verga,zoquete,zorra,zorro,Ass,Bmu,Cmu,Fga,Fku,Gya,Heo,Jpa,Jwe,Jzi,Kmu,Tti,Vga,Wpo,wtf,wft,aOn,ano,uAt,uta,$*it,Bastard,F**ker,Pooper,Sex Produced,sexy time made,Cojones,cojon</preference>
+            <preference preference-id="rateLimiterThreshold">3</preference>
+            <preference preference-id="recaptchaSiteKey">6LebwNcUAAAAAG_UELvREbA99Jom6GEdmkTFaVs1</preference>
+            <preference preference-id="searchResultsOptions">
+                <value>products</value>
+                <value>articles</value>
+            </preference>
+            <preference preference-id="searchSuggestionsOptions">
+                <value>content</value>
+            </preference>
+            <preference preference-id="separateLoginRegister">false</preference>
+            <preference preference-id="themeConfiguratorBackgroundPrimary">#fff</preference>
+            <preference preference-id="themeConfiguratorBackgroundSecondary">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorBorderPrimary">#000</preference>
+            <preference preference-id="themeConfiguratorCTABorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorCTABorderWidth">2</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBackgroundColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverBorderColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorCTAPrimaryOutlineHoverColor">#fff</preference>
+            <preference preference-id="themeConfiguratorCustomIcons">acf-font.woff</preference>
+            <preference preference-id="themeConfiguratorEmailLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorEnabled">true</preference>
+            <preference preference-id="themeConfiguratorFavIcon16">favicon-16x16.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon192">favicon-192x192.png</preference>
+            <preference preference-id="themeConfiguratorFavIcon48">favicon-48x48.png</preference>
+            <preference preference-id="themeConfiguratorFieldFocusBorder">#000</preference>
+            <preference preference-id="themeConfiguratorFieldFocusOutline">#f6fafe</preference>
+            <preference preference-id="themeConfiguratorFooterAnchor">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterAnchorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterBackground">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorFooterBacktotop">#000</preference>
+            <preference preference-id="themeConfiguratorFooterHeading">#231f20</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColor">#868686</preference>
+            <preference preference-id="themeConfiguratorFooterIconsColorHover">#e1251b</preference>
+            <preference preference-id="themeConfiguratorFooterText">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerBackgroundColor">#c8dff0</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonBackgroundColor">transparent</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerCloseButtonTextColor">#000</preference>
+            <preference preference-id="themeConfiguratorHeaderBannerTextColor">#000000</preference>
+            <preference preference-id="themeConfiguratorHeaderBgColor">#fff</preference>
+            <preference preference-id="themeConfiguratorHeaderFixed">true</preference>
+            <preference preference-id="themeConfiguratorHeaderIconsColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorHeaderTextHoverColor">#e1251b</preference>
+            <preference preference-id="themeConfiguratorInputBorderRadius">0</preference>
+            <preference preference-id="themeConfiguratorLogoLarge">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorLogoLeft">true</preference>
+            <preference preference-id="themeConfiguratorLogoSmall">hmby-logo.png</preference>
+            <preference preference-id="themeConfiguratorMainNavAlign">right</preference>
+            <preference preference-id="themeConfiguratorMainNavBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownBorderColor">#f1f2f2</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownHoverBackgroundColor">#fff</preference>
+            <preference preference-id="themeConfiguratorMainNavDropdownTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorMainNavTextColor">#231f20</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorPrimaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontFamily">'Omnes', arial, sans-serif</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontLocal">omnes-regular-webfont.woff</preference>
+            <preference preference-id="themeConfiguratorSecondaryFontName">Omnes</preference>
+            <preference preference-id="themeConfiguratorTextSecondary">#000</preference>
+            <preference preference-id="themeConfiguratorTextSpecial">#e1251b</preference>
+            <preference preference-id="trackingType">product</preference>
+            <preference preference-id="trackingURL">https://www.ups.com/track?tracknum={trackingNumber}</preference>
+            <preference preference-id="useAzurePermanentStorage">true</preference>
+            <preference preference-id="zoom_Xoffset">30</preference>
+            <preference preference-id="zoom_defaultScale">-1.0</preference>
+            <preference preference-id="zoom_enabled">true</preference>
+            <preference preference-id="zoom_lens">false</preference>
+            <preference preference-id="zoom_lensOpacity">0.7</preference>
+            <preference preference-id="zoom_lensShape">circle</preference>
+            <preference preference-id="zoom_position">lens</preference>
+            <preference preference-id="zoom_tint">#333</preference>
+            <preference preference-id="zoom_tintOpacity">0.5</preference>
+        </production>
+    </custom-preferences>
+</preferences>
+
