@@ -30,7 +30,7 @@ fs.readdirSync('sites', {withFileTypes: true}).filter(dirent => dirent.isDirecto
 			prdPref = escapeTsvVal(prdPref['_']);
 			
 			if (devPref != stgPref) {
-				let resolveTo = stgPref == prdPref ? stgPref : stgPref;
+				let resolveTo = stgPref == prdPref ? 'staging' : devPref ? 'development' : 'staging';
 				
 				diffs.push(
 					'"' + escapeTsvVal(dir) + '"\t' +
@@ -40,7 +40,7 @@ fs.readdirSync('sites', {withFileTypes: true}).filter(dirent => dirent.isDirecto
 					'"' + stgPref + '"\t' +
 					'"' + (stgPref == prdPref) + '"\t' +
 					'"' + prdPref + '"\t' +
-					'"' + '<preference preference-id=""' + id + '"">' + resolveTo + '</preference>' + '"'
+					'"' + resolveTo + '"'
 				)
 			}
 		});
