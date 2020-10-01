@@ -1,6 +1,6 @@
 const fs = require('fs');
 var parseString = require('xml2js').parseStringPromise;
-var diffs = ['site \t pref id \t stg/dev \t comp \t stg/stg \t comp \t stg/prd \t resolve'];
+var diffs = ['site \t pref id \t stg/dev \t stg/stg \t stg/prd'];
 
 function escapeTsvVal(val) {
 	return (val || '').replace(/"/g, '""');
@@ -15,8 +15,8 @@ function stringifyValues(args) {
 }
 
 
-fs.readdirSync('sites', {withFileTypes: true}).filter(dirent => dirent.isDirectory()).map(dirent => dirent.name).forEach(dir => {
-	parseString(fs.readFileSync('sites/' + dir + '/preferences.xml')).then(results => {
+fs.readdirSync('temp/sites', {withFileTypes: true}).filter(dirent => dirent.isDirectory()).map(dirent => dirent.name).forEach(dir => {
+	parseString(fs.readFileSync('temp/sites/' + dir + '/preferences.xml')).then(results => {
 		let customPrefs = results.preferences['custom-preferences'][0];
 		
 		customPrefs.staging[0].preference.forEach(stgPref => {
@@ -29,18 +29,13 @@ fs.readdirSync('sites', {withFileTypes: true}).filter(dirent => dirent.isDirecto
 			stgPref = escapeTsvVal(stgPref['_']);
 			prdPref = escapeTsvVal(prdPref['_']);
 			
-			if (devPref != stgPref) {
-				let resolveTo = stgPref == prdPref ? 'staging' : devPref ? 'development' : 'staging';
-				
+			if (devPref != stgPref) { // || (prdPref == '' && stgPref != '')) {
 				diffs.push(
 					'"' + escapeTsvVal(dir) + '"\t' +
 					'"' + id + '"\t' +
 					'"' + devPref + '"\t' +
-					'"' + (devPref == stgPref) + '"\t' +
 					'"' + stgPref + '"\t' +
-					'"' + (stgPref == prdPref) + '"\t' +
-					'"' + prdPref + '"\t' +
-					'"' + resolveTo + '"'
+					'"' + prdPref + '"'
 				)
 			}
 		});
